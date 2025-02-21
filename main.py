@@ -62,7 +62,7 @@ def main():
     speed = 10
     music_position = 0
     pygame.display.set_caption("Life of Kvadratics")
-    pygame.mixer.music.load('../pelmeni/Music/End_song.mp3')
+    pygame.mixer.music.load('End_song.mp3')
     pygame.mixer.music.set_volume(0.5)
 
     while True:
